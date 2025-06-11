@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Janani Vishal | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav>
+      <button class="nav-link active" data-page="home">Home</button>
+      <button class="nav-link" data-page="projects">Projects</button>
+      <button class="nav-link" data-page="about">About</button>
+    </nav>
+    <button id="theme-toggle" title="Toggle theme">🌙</button>
+  </header>
+
+  <div id="home" class="page active">
+    <div class="page-container">
+      <div class="profile-section">
+        <img src="images/jas.jpg" alt="Janani Vishal" class="profile-img">
+      </div>
+      <h1>Web development enthusiast learning by building real-world projects</h1>
+      <p class="subtitle">
+        Hi, I'm Janani Vishal, a B.Tech Information Science student passionate about building meaningful web and software solutions. I enjoy turning ideas into user-friendly products through clean code and creative problem-solving.
+      </p>
+      <div class="quote">
+        <blockquote>"The best way to predict the future is to create it."</blockquote>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/janani-vishalp" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/janani062" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <div id="home-projects-section" class="projects-embedded-section">
+      <div class="page-container">
+        <h2 class="page-title">Projects</h2>
+        <div class="projects-scroll-wrapper">
+          <div class="projects-grid">
+            <div class="project-card" data-project="1">
+              <div class="card-header">
+                <h3><b>Project 1:</b> Nitte College Mapping</h3>
+                <span class="tech-stack">HTML • CSS • JavaScript</span>
+              </div>
+              <div class="card-content">
+                <p>Developed a responsive web application to map Nitte College campus and provide real-time access to bus timings for students. This project focuses on intuitive user experience and dynamic data presentation.</p>
+                <div class="project-features">
+                  <span class="feature">Responsive Design</span>
+                  <span class="feature">Real-time Updates</span>
+                  <span class="feature">Campus Navigation</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+            <div class="project-card" data-project="2">
+              <div class="card-header">
+                <h3><b>Project 2:</b> Crime Analysis & Prediction</h3>
+                <span class="tech-stack">R • Data Analytics • Machine Learning</span>
+              </div>
+              <div class="card-content">
+                <p>Utilized R libraries for data cleaning, clustering, and predictive analytics to identify high-risk zones and forecast crime patterns with improved accuracy. This involved statistical modeling and data visualization.</p>
+                <div class="project-features">
+                  <span class="feature">Data Cleaning</span>
+                  <span class="feature">Clustering</span>
+                  <span class="feature">Predictive Analytics</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+            <div class="project-card" data-project="3">
+              <div class="card-header">
+                <h3><b>Project 3:</b> Coffee Recommendation System</h3>
+                <span class="tech-stack">HTML • CSS • PHP • JavaScript</span>
+              </div>
+              <div class="card-content">
+                <p>This project presents an intelligent Coffee Recommendation System designed to provide personalized coffee variety suggestions based on explicit user preferences and dynamic rating inputs. Leveraging a blend of front-end and back-end technologies, the system actively learns from user interactions, adapting its recommendations to offer a highly tailored and engaging experience.</p>
+                <div class="project-features">
+                  <span class="feature">Personalized Recommendations</span>
+                  <span class="feature">Dynamic Rating System</span>
+                  <span class="feature">Preference Modeling</span>
+                  <span class="feature">User Experience (UX) Focused</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+            <div class="project-card" data-project="4">
+              <div class="card-header">
+                <h3><b>Project 4:</b> Book Recommendation System</h3>
+                <span class="tech-stack">Python • HTML</span>
+              </div>
+              <div class="card-content">
+                <p>A smart book recommendation platform that suggests books based on user reading history and preferences. It leverages collaborative filtering techniques to enhance recommendations.</p>
+                <div class="project-features">
+                  <span class="feature">Reading History</span>
+                  <span class="feature">Genre Analysis</span>
+                  <span class="feature">Personalized Suggestions</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+            <div class="project-card" data-project="5">
+              <div class="card-header">
+                <h3><b>Project 5:</b> Homomorphic Encryption Implementation</h3>
+                <span class="tech-stack">Python • Cryptography • Data Privacy</span>
+              </div>
+              <div class="card-content">
+                <p>This project explores Homomorphic Encryption (HE), a cryptographic technique allowing computations on encrypted data without decryption. I implemented a basic scheme to demonstrate arithmetic operations on ciphertexts, crucial for enhancing data privacy in cloud computing and secure AI.</p>
+                <div class="project-features">
+                  <span class="feature">Secure Computation</span>
+                  <span class="feature">Data Privacy</span>
+                  <span class="feature">Cryptography</span>
+                  <span class="feature">Cloud Security</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="articles-section" class="page-container">
+      <h2 class="page-title">Latest Articles</h2>
+      <div class="articles-flex-row">
+        <div class="articles-main-col">
+          <div class="articles-list">
+            <div class="article-card">
+              <h3><a href="https://medium.com/@dev.muhammadazeem/embracing-the-future-the-rise-of-ai-in-web-development-c2a781f71059" target="_blank"> The Rise of AI in Web Development: Beyond Chatbots</a></h3>
+              <p>This article explores how AI is revolutionizing web development through enhanced automation, personalized experiences, and optimized workflows.</p>
+              <a href="https://medium.com/@dev.muhammadazeem/embracing-the-future-the-rise-of-ai-in-web-development-c2a781f71059" target="_blank" class="read-more-btn">Read More</a>
+            </div>
+            <div class="article-card">
+              <h3><a href="https://www.cloudthat.com/resources/blog/homomorphic-encryption-enabling-privacy-preserving-data-insight" target="_blank"> Demystifying Homomorphic Encryption: Protecting Data in Use</a></h3>
+              <p>This piece clarifies Homomorphic Encryption's role in enabling secure computations directly on encrypted data, critically enhancing privacy in cloud and AI applications.</p>
+              <a href="https://www.cloudthat.com/resources/blog/homomorphic-encryption-enabling-privacy-preserving-data-insight" target="_blank" class="read-more-btn">Read More</a>
+            </div>
+            <div class="article-card">
+              <h3><a href="https://example.com/data-storytelling-impact" target="_blank"> Data Storytelling: Bridging the Gap Between Insights and Impact</a></h3>
+              <p>This article highlights the essential practice of transforming complex data analyses into compelling narratives to drive actionable decisions and maximize impact.</p>
+              <a href="https://example.com/data-storytelling-impact" target="_blank" class="read-more-btn">Read More</a>
+            </div>
+            <div class="article-card">
+              <h3><a href="https://example.com/article4" target="_blank"> Demystifying JavaScript Asynchronous Operations</a></h3>
+              <p>Understanding callbacks, promises, and async/await for smoother JavaScript code.</p>
+            </div>
+          </div>
+        </div>
+        <div class="articles-side-col">
+          <div class="work-box">
+            <div class="work-title">Work</div>
+            <div class="work-list">
+              <div class="work-item">
+                <div class="work-company">Envsage (Envisage Cloud Solutions Private Limited)</div>
+                <div class="work-role">Software Engineer</div>
+                <div class="work-dates">June 8 2021 — July 16</div>
+              </div>
+            </div>
+            <a href="jananiresume.pdf" class="resume-btn" download>Download Resume <span>&#8595;</span></a>
+          </div>
+          <div class="github-box">
+            <div class="github-title">
+              Github
+              <a href="https://github.com/janani062" target="_blank" class="github-link" title="Open GitHub Profile">
+                <i class="fa fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="github-heatmap">
+              <img src="https://ghchart.rshah.org/janani062" alt="GitHub Heatmap" style="width:100%;max-width:320px;">
+              <div class="github-caption">317 contributions in the last half year</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="page">
+    <div class="page-container">
+      <h2 class="page-title">Projects</h2>
+      <div class="projects-vertical-list">
+        <div class="project-vertical-box">
+          <div class="project-vertical-header"><b>Project 1:</b> Nitte College Mapping</div>
+          <div class="project-vertical-summary">
+            Developed a responsive web application to map Nitte College campus and provide real-time access to bus timings for students. This project focuses on intuitive user experience and dynamic data presentation.
+          </div>
+          <div class="project-vertical-highlights">
+            <span class="highlight">Responsive Design</span>
+            <span class="highlight">Real-time Updates</span>
+            <span class="highlight">Campus Navigation</span>
+          </div>
+          <div class="project-vertical-footer">
+            <a href="#" target="_blank" class="view-project">View Project</a>
+          </div>
+        </div>
+        <div class="project-vertical-box">
+          <div class="project-vertical-header"><b>Project 2:</b> Crime Analysis & Prediction</div>
+          <div class="project-vertical-summary">
+            Utilized R libraries for data cleaning, clustering, and predictive analytics to identify high-risk zones and forecast crime patterns with improved accuracy. This involved statistical modeling and data visualization.
+          </div>
+          <div class="project-vertical-highlights">
+            <span class="highlight">Data Cleaning</span>
+            <span class="highlight">Clustering</span>
+            <span class="highlight">Predictive Analytics</span>
+          </div>
+          <div class="project-vertical-footer">
+            <a href="#" target="_blank" class="view-project">View Project</a>
+          </div>
+        </div>
+        <div class="project-vertical-box">
+          <div class="project-vertical-header"><b>Project 3:</b> Coffee Recommendation System</div>
+          <div class="project-vertical-summary">
+            This project presents an intelligent Coffee Recommendation System designed to provide personalized coffee variety suggestions based on explicit user preferences and dynamic rating inputs. Leveraging a blend of front-end and back-end technologies, the system actively learns from user interactions, adapting its recommendations to offer a highly tailored and engaging experience.
+          </div>
+          <div class="project-vertical-highlights">
+            <span class="highlight">Personalized Recommendations</span>
+            <span class="highlight">Dynamic Rating System</span>
+            <span class="highlight">Preference Modeling</span>
+            <span class="highlight">User Experience (UX) Focused</span>
+          </div>
+          <div class="project-vertical-footer">
+            <a href="#" target="_blank" class="view-project">View Project</a>
+          </div>
+        </div>
+        <div class="project-vertical-box">
+          <div class="project-vertical-header"><b>Project 4:</b> Book Recommendation System</div>
+          <div class="project-vertical-summary">
+            A smart book recommendation platform that suggests books based on user reading history and preferences. It leverages collaborative filtering techniques to enhance recommendations.
+          </div>
+          <div class="project-vertical-highlights">
+            <span class="highlight">Reading History</span>
+            <span class="highlight">Genre Analysis</span>
+            <span class="highlight">Personalized Suggestions</span>
+          </div>
+          <div class="project-vertical-footer">
+            <a href="#" target="_blank" class="view-project">View Project</a>
+          </div>
+        </div>
+        <div class="project-vertical-box">
+          <div class="project-vertical-header"><b>Project 5:</b> Homomorphic Encryption Implementation</div>
+          <div class="project-vertical-summary">
+            This project explores Homomorphic Encryption (HE), a cryptographic technique allowing computations on encrypted data without decryption. I implemented a basic scheme to demonstrate arithmetic operations on ciphertexts, crucial for enhancing data privacy in cloud computing and secure AI.
+          </div>
+          <div class="project-vertical-highlights">
+            <span class="highlight">Secure Computation</span>
+            <span class="highlight">Data Privacy</span>
+            <span class="highlight">Cryptography</span>
+            <span class="highlight">Cloud Security</span>
+          </div>
+          <div class="project-vertical-footer">
+            <a href="#" target="_blank" class="view-project">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="page">
+    <div class="page-container">
+        <h2 class="page-title">More About Me</h2>
+        <div class="about-grid">
+            <div class="about-column intro-col">
+                <h3>Introduction & Philosophy</h3>
+                <p>
+                    As a motivated and detail-oriented Information Science student, I am passionate about building meaningful web and software solutions that address real-world challenges.  My journey into technology is driven by a profound curiosity for how digital systems can innovate and solve complex problems, a passion I actively pursue through continuous learning and hands-on project development. 
+                </p>
+                <p>
+                    I thrive on transforming ideas into user-friendly products through clean, maintainable code and creative problem-solving. My objective is to apply my strong foundation in programming, data structures, and web development to contribute to impactful technology solutions and grow as a future-ready software engineer. 
+                </p>
+            </div>
+
+            <div class="about-column details-col">
+                <div class="section-block">
+                    <h3>Technical Expertise</h3>
+                    <div class="skills-category-list">
+                        <div class="skill-category-item">
+                            <h4>Programming Languages</h4>
+                            <ul>
+                                <li>Python, Java, C, R</li> 
+                            </ul>
+                        </div>
+                        <div class="skill-category-item">
+                            <h4>Web Development</h4>
+                            <ul>
+                                <li>HTML, CSS, JavaScript</li> 
+                                <li>React (Front-end), PHP (Back-end)</li> 
+                                <li>Responsive Web Design</li> 
+                            </ul>
+                        </div>
+                        <div class="skill-category-item">
+                            <h4>Databases & Data</h4>
+                            <ul>
+                                <li>SQL, Git</li> 
+                                <li>Data Cleaning, Clustering, Predictive Analytics</li> 
+                            </ul>
+                        </div>
+                        <div class="skill-category-item">
+                            <h4>Software Development & Tools</h4>
+                            <ul>
+                                <li>Data Structures & Algorithms, API integration, Software Design Principles, System Design</li> 
+                                <li>PyCharm, VSCode, GitHub, Git, Postman</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <h3>Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li>Problem-solving & Analytical Thinking</li> 
+                        <li>Leadership & Teamwork</li> 
+                        <li>Time Management & Adaptability</li> 
+                        <li>Effective Communication</li> 
+                    </ul>
+                </div>
+
+                <div class="section-block">
+                    <h3>Experience & Leadership</h3>
+                    <div class="experience-item">
+                        <h4>Cultural Head, YRC UNIT</h4> 
+                        <p class="experience-dates">2024-2025</p> 
+                        <p>Led and coordinated multiple college-level cultural events, managing teams, logistics, and creative execution to ensure successful and impactful programs. </p>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <h3>Certifications & Training</h3>
+                    <ul class="certifications-list">
+                        <li>Infosys Springboard Certification: Completed foundational training in programming concepts, soft skills, and career readiness. </li>
+                        <li>Introduction to Python Programming: Gained hands-on experience with Python syntax, loops, functions, and basic data structures. </li>
+                        <li>Web Development Basics: Learned core web technologies: HTML5, CSS3, and JavaScript for building responsive websites. </li>
+                    </ul>
+                </div>
+
+                <div class="about-cta">
+                    <a href="#projects" class="view-projects-btn">Explore My Projects</a>
+                    <a href="jananiresume.pdf" class="download-resume-btn" download>Download Resume <span>&#8595;</span></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <footer>
+    <p>© 2025 Janani Vishal. All rights reserved.</p>
+  </footer>
+  <script src="theme.js"></script>
+</body>
+</html>
