@@ -612,7 +612,6 @@ h1 {
   }
 }
 
-/* Responsive Design */
 @media (max-width: 1000px) {
   .page-container {
     max-width: 100%;
@@ -656,40 +655,39 @@ h1 {
 }
 /* --- About Section Specific Styles --- */
 .about-grid {
-    display: flex; /* Use flexbox for the two-column layout */
-    gap: 40px; /* Space between columns */
+    display: block; /* Remove flex for intro box */
+    gap: 0;
     margin-top: 30px;
-    padding: 0 10px; /* Add some horizontal padding inside page-container */
+    padding: 0 10px;
 }
 
-.about-column {
-    flex: 1; /* Both columns take equal space */
-    display: flex;
-    flex-direction: column;
-    gap: 30px; /* Space between blocks within a column */
-}
-
+/* Introduction box: one big block */
 .intro-col {
-    /* Specific styles for the introduction column */
-    background: var(--project-bg); /* A slightly different background can highlight this column */
+    background: var(--project-bg);
     border-radius: 12px;
     box-shadow: 0 4px 12px var(--shadow);
     border: 1px solid var(--border-color);
     padding: 30px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
-.intro-col p {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--text-color);
-    opacity: 0.9;
-    margin-bottom: 15px;
+/* Flexbox for details section below intro */
+.details-flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
 }
 
-.intro-col p:last-child {
-    margin-bottom: 0;
+.details-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-
 
 .section-block {
     background: var(--project-bg);
@@ -830,7 +828,7 @@ h1 {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: ;
     gap: 15px;
 }
 
